@@ -1,0 +1,15 @@
+dev:
+  test1: Logger
+  test2: YamlConfigProvider
+  test3: YamlConfigProvider.Test.Module
+  adapter: postgresql
+  database: testdb
+  username: testuser
+  password: myPa$sw0rd
+  host: pgsqlhost
+  port: 5432
+  list:
+    - 1
+    - 2
+    - text
+    - 3
